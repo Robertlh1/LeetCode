@@ -1,3 +1,6 @@
+// Runtime: 170 ms, faster than 30.89% of JavaScript online submissions for Add Two Numbers.
+// Memory Usage: 47.2 MB, less than 69.93% of JavaScript online submissions for Add Two Numbers.
+
 function ListNode(val, next) {
   this.val = (val===undefined ? 0 : val)
   this.next = (next===undefined ? null : next)
