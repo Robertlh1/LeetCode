@@ -21,7 +21,6 @@ var myAtoi = function(s) {
     }
   }
 
-
   num = Number(num)
   let min = Math.pow(-2, 31)
   let max = Math.pow(2, 31) - 1
