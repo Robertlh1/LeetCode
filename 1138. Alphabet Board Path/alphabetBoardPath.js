@@ -63,5 +63,4 @@ var alphabetBoardPath = function(target) {
   return result
 };
 
-console.log(alphabetBoardPath('zdz'))
 module.exports = alphabetBoardPath
