@@ -2,6 +2,7 @@
 // Memory Usage: 43.5 MB, less than 100.00% of JavaScript online submissions for Number of Burgers with No Waste of Ingredients.
 
 var numOfBurgers = function(tomatoSlices, cheeseSlices) {
+  console.log(15 % 5)
   let burgers = []
   burgers[0] = (tomatoSlices - cheeseSlices * 2) / 2;
   burgers[1] = cheeseSlices - burgers[0]
@@ -41,6 +42,3 @@ var numOfBurgers = function(tomatoSlices, cheeseSlices) {
 // };
 
 module.exports = numOfBurgers
-console.log(numOfBurgers(16, 7))
-console.log(numOfBurgers(17, 4))
-console.log(numOfBurgers(4, 17))
