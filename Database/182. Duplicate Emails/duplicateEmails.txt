@@ -1,3 +1,5 @@
+Note: Runtime is highly variable between submissions and I don't have a premium subscription,
+  which places me in a lower tier.
 Runtime: 503 ms, faster than 37.19% of MySQL online submissions for Duplicate Emails.
 Memory Usage: 0B, less than 100.00% of MySQL online submissions for Duplicate Emails.
 
