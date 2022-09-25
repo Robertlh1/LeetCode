@@ -5,9 +5,6 @@ Runtime: 125 ms, faster than 87.95% of JavaScript online submissions for Design 
 Memory Usage: 49.2 MB, less than 88.46% of JavaScript online submissions for Design Circular Queue.
 */
 
- /*
- * @param {number} k
- */
  var MyCircularQueue = function(k) {
   this.size = 0
   this.limit = k
@@ -16,10 +13,6 @@ Memory Usage: 49.2 MB, less than 88.46% of JavaScript online submissions for Des
   this.head = 1
 };
 
-/**
-* @param {number} value
-* @return {boolean}
-*/
 MyCircularQueue.prototype.enQueue = function(value) {
   if (!this.isFull()) {
       this.tail ++
@@ -33,9 +26,6 @@ MyCircularQueue.prototype.enQueue = function(value) {
   return false
 };
 
-/**
-* @return {boolean}
-*/
 MyCircularQueue.prototype.deQueue = function() {
   if (!this.isEmpty()) {
       delete this.queue[this.head]
@@ -49,9 +39,6 @@ MyCircularQueue.prototype.deQueue = function() {
   return false
 };
 
-/**
-* @return {number}
-*/
 MyCircularQueue.prototype.Front = function() {
   if (this.isEmpty()) {
       return -1
@@ -59,9 +46,6 @@ MyCircularQueue.prototype.Front = function() {
   return this.queue[this.head]
 };
 
-/**
-* @return {number}
-*/
 MyCircularQueue.prototype.Rear = function() {
   if (this.isEmpty()) {
       return -1
@@ -69,9 +53,6 @@ MyCircularQueue.prototype.Rear = function() {
   return this.queue[this.tail]
 };
 
-/**
-* @return {boolean}
-*/
 MyCircularQueue.prototype.isEmpty = function() {
   if (this.size > 0) {
       return false
@@ -80,12 +61,11 @@ MyCircularQueue.prototype.isEmpty = function() {
   }
 };
 
-/**
-* @return {boolean}
-*/
 MyCircularQueue.prototype.isFull = function() {
   if (this.size >= this.limit) {
       return true
   }
   return false
 };
+
+module.exports = MyCircularQueue
