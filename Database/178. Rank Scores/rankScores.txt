@@ -3,6 +3,16 @@ Note: Runtime is highly variable between submissions and I don't have a premium 
 Runtime: 375 ms, faster than 51.28% of MySQL online submissions for Rank Scores.
 Memory Usage: 0B, less than 100.00% of MySQL online submissions for Rank Scores.
 
+# Write your MySQL query statement below
+SELECT
+    score,
+    DENSE_RANK()
+    OVER (
+        ORDER BY score DESC
+    ) AS 'rank'
+FROM
+    Scores;
+
 Table: Scores
 
 +-------------+---------+
@@ -51,13 +61,3 @@ Output:
 | 3.65  | 3    |
 | 3.50  | 4    |
 +-------+------+
-
-# Write your MySQL query statement below
-SELECT
-    score,
-    DENSE_RANK()
-    OVER (
-        ORDER BY score DESC
-    ) AS 'rank'
-FROM
-    Scores;

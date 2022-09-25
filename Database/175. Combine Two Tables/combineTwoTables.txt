@@ -3,6 +3,12 @@ Note: Runtime is highly variable between submissions and I don't have a premium 
 Runtime: 532 ms, faster than 39.21% of MySQL online submissions for Combine Two Tables.
 Memory Usage: 0B, less than 100.00% of MySQL online submissions for Combine Two Tables.
 
+# Write your MySQL query statement below
+SELECT firstName, lastName, city, state
+FROM Person
+LEFT JOIN Address
+ON Person.personId = Address.personId;
+
 Table: Person
 
 +-------------+---------+
@@ -65,9 +71,3 @@ Output:
 Explanation:
 There is no address in the address table for the personId = 1 so we return null in their city and state.
 addressId = 1 contains information about the address of personId = 2.
-
-# Write your MySQL query statement below
-SELECT firstName, lastName, city, state
-FROM Person
-LEFT JOIN Address
-ON Person.personId = Address.personId;
