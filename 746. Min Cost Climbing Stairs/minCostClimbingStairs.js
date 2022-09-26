@@ -12,9 +12,6 @@ You can either start from the step with index 0, or the step with index 1.
 Return the minimum cost to reach the top of the floor.
 */
 
-// Can start at either index 0 or 1
-// Can move either 1 or 2 indexes
-// Perform every possible move and take the smallest curCost
 var minCostClimbingStairs = function(cost) {
   let oneStep = cost[0]
   let twoStep = cost[1]
