@@ -22,4 +22,9 @@ var moveZeroes = function(nums) {
           }
       }
   }
+
+  // This line isn't needed on LeetCode
+  return nums
 };
+
+module.exports = moveZeroes
