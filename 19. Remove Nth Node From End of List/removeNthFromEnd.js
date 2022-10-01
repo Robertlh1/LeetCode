@@ -29,12 +29,4 @@ var removeNthFromEnd = function(head, n) {
   return temp[0]
 };
 
-function ListNode(val, next) {
-  this.val = (val===undefined ? 0 : val)
-  this.next = (next===undefined ? null : next)
-}
-
-let node = new ListNode(1, new ListNode(2))
-console.log(removeNthFromEnd(node, 1))
-
 module.exports = removeNthFromEnd
