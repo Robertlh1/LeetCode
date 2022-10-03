@@ -19,7 +19,7 @@ var mergeTrees = function(root1, root2, root3) {
     let right = mergeTrees(root1.right, root2.right)
     root3 = new TreeNode(root1.val + root2.val, left, right)
   } else {
-      root3 = root1 || root2
+    root3 = root1 || root2
   }
 
   return root3
