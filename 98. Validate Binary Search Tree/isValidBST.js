@@ -24,3 +24,5 @@ var isValidBST = function(root, min = null, max = null) {
 
   return isValidBST(root.left, min, root) && isValidBST(root.right, root, max)
 };
+
+module.exports = isValidBST

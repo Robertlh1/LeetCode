@@ -15,6 +15,7 @@ var lowestCommonAncestor = function(root, p, q) {
     return null
   }
 
+  debugger
   // If the target values are greater than the current node, they must be to the right
   if (root.val > p.val && root.val > q.val) {
       return lowestCommonAncestor(root.left, p, q)
@@ -26,3 +27,5 @@ var lowestCommonAncestor = function(root, p, q) {
       return root
   }
 };
+
+module.exports = lowestCommonAncestor

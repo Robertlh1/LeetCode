@@ -11,13 +11,7 @@ Merge the two lists in a one sorted list. The list should be made by splicing to
 Return the head of the merged linked list.
 */
 
-/*
- * Definition for singly-linked list.
- * function ListNode(val, next) {
- *     this.val = (val===undefined ? 0 : val)
- *     this.next = (next===undefined ? null : next)
- * }
- */
+const ListNode = require('../Utility Functions/ListNode')
 
 var mergeTwoLists = function(list1, list2) {
   if (list1 === null && list2 === null) {
@@ -66,4 +60,4 @@ var mergeTwoLists = function(list1, list2) {
   return head
 };
 
-module.export = mergeTwoLists
+module.exports = mergeTwoLists

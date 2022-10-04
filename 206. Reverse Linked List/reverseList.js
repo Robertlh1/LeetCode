@@ -7,6 +7,8 @@ Memory Usage: 44.1 MB, less than 71.54% of JavaScript online submissions for Rev
 Given the head of a singly linked list, reverse the list, and return the reversed list.
 */
 
+const ListNode = require('../Utility Functions/ListNode')
+
 var reverseList = function(head) {
   if (head === null || head.next === null) {
       return head
@@ -31,3 +33,5 @@ var reverseList = function(head) {
 
   return rev
 };
+
+module.exports = reverseList
