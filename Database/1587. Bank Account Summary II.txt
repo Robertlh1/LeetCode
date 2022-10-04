@@ -1,6 +1,6 @@
 Note: Runtime is highly variable between submissions and I don't have a premium subscription,
   which places me in a lower tier.
-Runtime: 773 ms, faster than 54.94% of MySQL online submissions for Bank Account Summary II.
+Runtime: 632 ms, faster than 81.57% of MySQL online submissions for Bank Account Summary II.
 Memory Usage: 0B, less than 100.00% of MySQL online submissions for Bank Account Summary II.
 
 # Write your MySQL query statement below
