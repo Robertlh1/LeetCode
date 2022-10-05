@@ -15,4 +15,3 @@ function linkedListBuilder(arr) {
 }
 
 module.exports = linkedListBuilder
-console.log(linkedListBuilder([9,9,9,9,9,9,9]))
