@@ -39,4 +39,3 @@ var uniquePaths = function(m, n) {
 // };
 
 module.exports = uniquePaths
-console.log(uniquePaths(3, 7))
