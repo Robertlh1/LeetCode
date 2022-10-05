@@ -4,7 +4,7 @@ Note: Runtime is highly variable between submissions and I don't have a premium 
 Runtime: 55 ms, faster than 99.10% of JavaScript online submissions for House Robber II.
 Memory Usage: 42.1 MB, less than 50.62% of JavaScript online submissions for House Robber II.
 
-You are a professional robber planning to rob houses along a street. Each house has a certain amount of money stashed, the only constraint stopping you from robbing each of them is that adjacent houses have security systems connected and it will automatically contact the police if two adjacent houses were broken into on the same night.
+You are a professional robber planning to rob houses along a street. Each house has a certain amount of money stashed. All houses at this place are arranged in a circle. That means the first house is the neighbor of the last one. Meanwhile, adjacent houses have a security system connected, and it will automatically contact the police if two adjacent houses were broken into on the same night.
 
 Given an integer array nums representing the amount of money of each house, return the maximum amount of money you can rob tonight without alerting the police.
 */
