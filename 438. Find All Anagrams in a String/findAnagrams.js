@@ -19,7 +19,6 @@ var findAnagrams = function(s, p) {
       letters[p[i]] ? letters[p[i]] ++ : letters[p[i]] = 1
   }
 
-  debugger
   for (let i = 0; i < s.length; i++) {
     if (letters[s[i]] !== undefined) {
       if (letters[s[i]] > 0) currCount --
@@ -40,4 +39,3 @@ var findAnagrams = function(s, p) {
 };
 
 module.exports = findAnagrams
-console.log(findAnagrams('bpaa', 'aa'))
