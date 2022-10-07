@@ -82,4 +82,3 @@ Note: Runtime is highly variable between submissions and I don't have a premium 
 */
 
 module.exports = letterCasePermutation
-console.log(letterCasePermutation('mQe'))
