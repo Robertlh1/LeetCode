@@ -1,5 +1,5 @@
 const deleteNode = require('./deleteNode')
-const linkedListBuilder = require('../../Utility Functions/linkedListBuilder')
+const linkedListBuilder = require('../Utility Functions/linkedListBuilder')
 
 describe('Testing deleteNode', () => {
   // head function simulates a process that the LeetCode prompt runs behind the scenes for testing
