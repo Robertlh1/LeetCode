@@ -1,5 +1,5 @@
 const deleteMiddle = require('./deleteMiddle')
-const linkedListBuilder = require('../../Utility Functions/linkedListBuilder')
+const linkedListBuilder = require('../Utility Functions/linkedListBuilder')
 
 describe('Testing deleteMiddle', () => {
   test('deleteMiddle() should return [1,3,4,1,2,6] when the input is [1,3,4,7,1,2,6]', () => {
