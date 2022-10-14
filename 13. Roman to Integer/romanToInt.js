@@ -1,8 +1,8 @@
 /*
 Note: Runtime is highly variable between submissions and I don't have a premium subscription,
   which places me in a lower tier.
-Runtime: 98 ms, faster than 98.78% of JavaScript online submissions for Squares of a Sorted Array.
-Memory Usage: 48.7 MB, less than 59.01% of JavaScript online submissions for Squares of a Sorted Array.
+Runtime: 129 ms, faster than 94.48% of JavaScript online submissions for Roman to Integer.
+Memory Usage: 47.3 MB, less than 55.27% of JavaScript online submissions for Roman to Integer.
 
 Roman numerals are represented by seven different symbols: I, V, X, L, C, D and M.
 
