@@ -1,5 +1,5 @@
 const hasCycle = require('./hasCycle')
-const linkedListBuilder = require('../../Utility Functions/linkedListBuilder')
+const linkedListBuilder = require('../Utility Functions/linkedListBuilder')
 
 describe('Testing hasCycle', () => {
   test('hasCycle() should return true when the input is [3,2,0,-4], 1', () => {
