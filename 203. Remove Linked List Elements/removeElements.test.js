@@ -1,5 +1,5 @@
 const removeElements = require('./removeElements')
-const linkedListBuilder = require ('../../Utility Functions/linkedListBuilder')
+const linkedListBuilder = require ('../Utility Functions/linkedListBuilder')
 
 describe('Testing removeElements', () => {
   let testNode = linkedListBuilder([1,2,6,3,4,5,6])
