@@ -1,8 +1,8 @@
 /*
 Note: Runtime is highly variable between submissions and I don't have a premium subscription,
   which places me in a lower tier.
-Runtime: 98 ms, faster than 98.78% of JavaScript online submissions for Squares of a Sorted Array.
-Memory Usage: 48.7 MB, less than 59.01% of JavaScript online submissions for Squares of a Sorted Array.
+Runtime: 73 ms, faster than 92.59% of JavaScript online submissions for Find the Difference.
+Memory Usage: 44.1 MB, less than 57.32% of JavaScript online submissions for Find the Difference.
 
 You are given two strings s and t.
 
@@ -20,5 +20,4 @@ var findTheDifference = function(s, t) {
   }
 };
 
-console.log(findTheDifference("abcd", "abcde"))
 module.exports = findTheDifference
