@@ -1,5 +1,5 @@
 const deleteDuplicates = require('./deleteDuplicates')
-const linkedListBuilder = require('../../Utility Functions/linkedListBuilder')
+const linkedListBuilder = require('../Utility Functions/linkedListBuilder')
 
 describe('Testing deleteDuplicates', () => {
   test('deleteDuplicates() should return [1,2] when the input is [1,1,2]', () => {
