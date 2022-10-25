@@ -13,7 +13,6 @@ var diagonalSum = function(mat) {
   if (mat.length === 1) return mat[0][0]
   let sum = 0, end = mat.length - 1, mid = Math.floor(mat.length / 2), k = 0
 
-  debugger
   for (let i = 0; i < mat.length; i++) {
       sum += mat[i][i]
   }
@@ -27,5 +26,4 @@ var diagonalSum = function(mat) {
   return sum
 };
 
-console.log(diagonalSum([[7,9,8,6,3],[3,9,4,5,2],[8,1,10,4,10],[9,5,10,9,6],[7,2,4,10,8]]))
 module.exports = diagonalSum
