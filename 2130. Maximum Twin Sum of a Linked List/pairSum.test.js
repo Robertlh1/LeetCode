@@ -1,5 +1,5 @@
 const pairSum = require('./pairSum')
-const linkedListBuilder = require('../../Utility Functions/linkedListBuilder')
+const linkedListBuilder = require('../Utility Functions/linkedListBuilder')
 
 describe('Testing pairSum', () => {
   test('pairSum() should return 6 when the input is [5,4,2,1]', () => {
