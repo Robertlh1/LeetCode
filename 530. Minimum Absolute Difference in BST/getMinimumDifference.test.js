@@ -1,5 +1,5 @@
 const getMinimumDifference = require('./getMinimumDifference')
-const nodeBuilder = require('../../Utility Functions/nodeBuilder')
+const nodeBuilder = require('../Utility Functions/nodeBuilder')
 
 describe("Testing getMinimumDifference", () => {
   test("getMinimumDifference() should return 1 for an input of [4,2,6,1,3]", () => {
