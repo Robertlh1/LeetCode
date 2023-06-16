@@ -51,11 +51,6 @@ var findAllPeople = function(n, meetings, firstPerson) {
     }
   }
 
-  let bah = Object.keys(identified)
-  for (let x = 0; x < bah.length; x++) {
-    result.push(Number(bah[x]))
-  }
-
   return result
 };
 
